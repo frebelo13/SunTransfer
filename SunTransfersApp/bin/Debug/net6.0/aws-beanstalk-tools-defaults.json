@@ -1,0 +1,20 @@
+
+{
+    "region" : "eu-west-2",
+    "configuration" : "Debug",
+    "framework"     : "net6.0",
+    "self-contained" : true,
+    "application"    : "FrontEndCore",
+    "environment"    : "devFrontEndCore",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-166b006c\";\"aws:ec2:vpc,Subnets\"=\"subnet-36c0447a\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.6.0 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "devfrontendcore",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
